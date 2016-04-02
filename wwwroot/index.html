@@ -2,11 +2,14 @@
 <html>
 <head>
 	<title>Test</title>
-	<script type="text/javascript" src="http://localhost:6680/mopidy/mopidy.js"></script>
+	<script type="text/javascript" src="lib/mopidy.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 	<script type="text/javascript" src="main.js"></script>
 </head>
 <body>
-	<input id="volume" type="range"  min="0" max="100" /><label id="volumeLabel"/>
+	<p id="currentTrack">Foo</p>
+	<input id="volume" type="range"  min="0" max="100" /></input><label id="volumeLabel"/></label>
+	<button type="button" id="test1">Test</button>
+	<button type="button" id="newSong">new Song</button>
 </body>
 </html>
